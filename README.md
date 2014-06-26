@@ -1,5 +1,5 @@
 StateManager-android
 ====================
 
-StateManager-android  transfer data to avtivity ,fragment service and etc.
-you can just call post method for anywhere and the class will callback the Method if you regist it
+android 代码片段传递管理器，只需要向Statemanager注册class然后在需要改变状态的时候
+调用post方法就会回调到class里面的onPosted方法中，只需要在onPosted方法中处理就行。
